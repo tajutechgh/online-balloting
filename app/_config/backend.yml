@@ -1,0 +1,31 @@
+---
+Name: backendthemeconfig
+---
+
+SilverStripe\SiteConfig\SiteConfig:
+  # cms_logo: 'mysite/images/cms_logo.png'
+  cms_logo_width: 200 # Optional width constraint
+
+SilverStripe\Admin\LeftAndMain:
+  cms_background: '#fff'
+  cms_border_color: '#008000'
+  cms_color: '#008000'
+  cms_hover_background: 'inherit'
+  cms_hover_color: currentColor
+  cms_active_background: '#008000'
+  cms_active_color: '#fff'
+  cms_drawer_background: '#008000'
+  cms_drawer_color: '#fff'
+  cms_icon_color: currentColor
+  menu_groups:
+    Misc:
+      icon_class: 'fa fa-folder' # (optional) Defaults to 'fa fa-folder'
+      priority: -10 # (optional) Defaults to menu item order
+      items:
+        - SilverStripe-CampaignAdmin-CampaignAdmin
+        - Help
+        - SilverStripe-Reports-ReportAdmin
+        - Dynamic-Elements-Promos-Admin-PromosAdmin
+        - Dynamic-Elements-Sponsors-Admin-SponsorsAdmin
+        - SilverStripe-Taxonomy-TaxonomyAdmin
+        - Dynamic-Elements-Admin-TestimonialsAdmin

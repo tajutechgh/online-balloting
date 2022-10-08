@@ -1,0 +1,10 @@
+---
+Name: appmainroutes
+After:
+  - '#rootroutes'
+  - '#coreroutes'
+---
+SilverStripe\Control\Director:
+  rules:
+    dashboard//$Action/$ID: DashboardController
+    auth//$Action/$ID: AuthController

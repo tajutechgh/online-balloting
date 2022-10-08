@@ -1,0 +1,11 @@
+---
+Name: e-balloting-extensions
+---
+
+SilverStripe\Security\Member:
+  extensions:
+    - EBallotingMemberExtension
+
+SilverStripe\ORM\DataObject:
+  extensions:
+    - GICDataObjectExtension

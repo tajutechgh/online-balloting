@@ -1,0 +1,49 @@
+body{
+    font-family: 'Tinos', serif;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a{
+    color: #212529;
+    text-decoration: none;
+}
+
+.vc{
+    margin-top: 18%;
+}
+
+.sp{
+    margin-bottom: 20px;
+}
+
+.pos{
+    height: 150px;
+}
+
+.pos h5{
+    margin-top: 20px;
+}
+
+.bd{
+    border: 2px solid;
+    padding: 5px;
+}
+
+#PollingOfficerForm_PollingOfficerForm_action_doRegisterAndStay,
+#PollingOfficerForm_PollingOfficerForm_action_doRegisterAndGoBack{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.btn-toolbar{
+    display: none;
+}
+
+.po{
+   margin-bottom: 20px;
+}
